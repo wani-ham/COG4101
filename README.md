@@ -5,12 +5,12 @@
 :calendar: **Fall, 2022**
 
 ## Purpose of this Project
-This project follows how raw image information is processed, starting from the level of **pupil** to **V1 area**. 
+This project shows how raw image information is processed, starting from the level of **pupil** to **V1 area**. 
 
 
 ## Theoretical Background
 
-### World to Retina
+### :one: World to Retina
 Light from the source (sun, light bulb etc...) hits an object and then bounces off. That precise moment is when the light contains the information of the object. Depending on the substance and surface of the object, some range of the light does not bounce off. The bounced light reaches our pupil and that is when our vision system start its process.
 
 <div align="center">
@@ -27,10 +27,10 @@ $$ l_{i} = 0.47e^{-3.3i^2} + 0.53e^{-0.93|i|} $$
 
 
 
-### Retina to LGN 
+### :two: Retina to LGN 
 LGN(Lateral geniculate nucleus)
 
-### LGN to V1
+### :three: LGN to V1
 Contents
 
 :page_facing_up: **Reference** 
