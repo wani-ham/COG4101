@@ -13,8 +13,17 @@ This project follows how raw image information is processed, starting from the l
 ### World to Retina
 Light from the source (sun, light bulb etc...) hits an object and then bounces off. That precise moment is when the light contains the information of the object. Depending on the substance and surface of the object, some range of the light does not bounce off. The bounced light reaches our pupil and that is when our vision system start its process.
 
-Some might say, how come the pupil is the start of the process. It is because the biological lens of the pupil modifies the input light. 
+<div align="center">
 
+|<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/monitor.to_.retina1-1024x703.png" alt="Retinal Image Formation" width="400"/>|
+|:-:|
+|**Fig 1. Retinal Image Formation** (Wandell, 1995)|
+
+</div>
+
+Some might say, how come the pupil is the start of the process of the visual system. It is because the biological lens of the pupil modifies the input light. As you can see in Fig 1, the characteristic of the pupil as biological lens causes the input light has inconsistent density. The input light creates a linespread function when it reaches retina. Campbell and Gubisch estimated the linespread function when pupil diameter is nearly 3mm. 
+
+$$ l_{i} = 0.47e^{-3.3i^2} + 0.53e^{-0.93|i|} $$
 
 
 
