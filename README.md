@@ -5,12 +5,20 @@
 :calendar: **Fall, 2022**
 
 ## Purpose of this Project
-Contents
+This project follows the process of raw image information from eye to V1 area. 
 
 
 ## Theoretical Background
+
+### World to Retina
+Contents
+
+### Retina to LGN 
+LGN(Lateral geniculate nucleus)
+
+### LGN to V1
 Contents
 
 :page_facing_up: **Reference** 
-* lecture notes from [**prof. Sang Chul Chong**](https://vcc.yonsei.ac.kr/pi) (Dept. Psychology, Yonsei univ.) 
+* Lecture notes from [**prof. Sang Chul Chong**](https://vcc.yonsei.ac.kr/pi) (Dept. Psychology, Yonsei univ.) 
 * Wandell, B. A. (1995). Foundations of Vision Science: Behavior, neuroscience, and computation. Sinauer Associates. 
