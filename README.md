@@ -21,7 +21,7 @@ Light from the source (sun, light bulb etc...) hits an object and then bounces o
 
 </div>
 
-Some might say, how come the pupil is the start of the process of the visual system. It is because the biological lens of the pupil modifies the input light. As you can see in Fig 1, the characteristic of the pupil as biological lens causes the input light has inconsistent density. The input light creates a linespread function when it reaches retina. Campbell and Gubisch estimated the linespread function when pupil diameter is nearly 3mm. 
+Some might say, how come the pupil is the start of the process of the visual system. It is because the biological lens of the pupil modifies the input light. As you can see in Fig 1, the characteristic of the pupil as biological lens causes the input light to have inconsistent density. The input light creates a linespread function when it reaches retina. G. Westheimer (1986) estimated the linespread function as following when pupil diameter is nearly 3mm. 
 
 $$ l_{i} = 0.47e^{-3.3i^2} + 0.53e^{-0.93|i|} $$
 
