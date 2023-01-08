@@ -1,4 +1,4 @@
-# :eyes: Simulating Human Vision using MATLAB
+# :eyes: Simulating Human Vision with MATLAB
 
 :white_check_mark: Project from an undergraduate course, **"Information Processing Theory"** (COG4101.01-00) at Yonsei university
 
