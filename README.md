@@ -68,7 +68,7 @@ Contents
 </div>
 <div align="center">
 
-|<img src="images/image_5.jpg" alt="Result Image 5" width="600"/>|
+|<img src="images/image_5.jpg" alt="Result Image 5" width="400"/>|
 |:-:|
 |**Fig 6. V1 Simulation**|
 
