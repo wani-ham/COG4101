@@ -38,3 +38,38 @@ Contents
 * Wandell, B. A. (1995). [Foundations of Vision Science: Behavior, neuroscience, and computation](http://foundationsofvision.stanford.edu/). Sinauer Associates. 
 
 ## Result of the Project
+<div align="center">
+
+|<img src="images/image_1.jpg" alt="Result Image 1" width="600"/>|
+|:-:|
+|**Fig 2. Original Sample Image** (Andrei Tarkovsky)|
+
+</div>
+<div align="center">
+
+|<img src="images/image_2.jpg" alt="Result Image 2" width="600"/>|
+|:-:|
+|**Fig 3. Vertical Receptive Field Orientation**|
+
+</div>
+<div align="center">
+
+|<img src="images/image_3.jpg" alt="Result Image 3" width="600"/>|
+|:-:|
+|**Fig 4. Horizontal Receptive Field Orientation**|
+
+</div>
+<div align="center">
+
+|<img src="images/image_4.jpg" alt="Result Image 4" width="600"/>|
+|:-:|
+|**Fig 5. 55 degree Receptive Field Orientation**|
+
+</div>
+<div align="center">
+
+|<img src="images/image_5.jpg" alt="Result Image 5" width="600"/>|
+|:-:|
+|**Fig 6. V1 Simulation**|
+
+</div>
