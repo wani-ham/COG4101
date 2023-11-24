@@ -34,8 +34,11 @@ Some might say, how come the pupil is the start of the process of the visual sys
 $$ l_{i} = 0.47e^{-3.3i^2} + 0.53e^{-0.93|i|} $$
 
 When light enters our retina system, it follows the path as follows. 
+<div align="center">
 
-**Light - Ganglion Cell - Bipolar Cell/Horizontal Cell - Photoreceptor(Cone/Rod)**
+ **Light - Ganglion Cell - Bipolar Cell/Horizontal Cell - Photoreceptor(Cone/Rod)**
+
+</div>
 
 The body of ganglion cell is located in Ganglionic layer and makes connection with bipolor cell and horizontal cell in Inner plexiform layer. The body of bipolar cell and horizontal cell is located in Inner nuclear layer and makes connection with the photoreceptors in Outer plexiform layer. The body of photoreceptor is located in Outer nuclear layer. 
 
