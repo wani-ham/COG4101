@@ -12,9 +12,9 @@ This project shows how raw image information is processed, starting from the lev
 
 <div align="center">
 
-|<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/cortexInput-300x300.png" alt="Overall Pathways" width="400"/>|
+|<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/specialization1-1024x761.png" alt="Overall Pathways" width="400"/>|
 |:-:|
-|**Fig . Overall Pathways to V1** (Wandell, 1995)|
+|**Fig 1. Overall Pathways to V1** (Wandell, 1995)|
 
 </div>
 
@@ -25,7 +25,7 @@ Light from the source (sun, light bulb etc...) hits an object and then bounces o
 
 |<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/monitor.to_.retina1-1024x703.png" alt="Retinal Image Formation" width="400"/>|
 |:-:|
-|**Fig . Retinal Image Formation** (Wandell, 1995)|
+|**Fig 1. Retinal Image Formation** (Wandell, 1995)|
 
 </div>
 
@@ -34,11 +34,8 @@ Some might say, how come the pupil is the start of the process of the visual sys
 $$ l_{i} = 0.47e^{-3.3i^2} + 0.53e^{-0.93|i|} $$
 
 When light enters our retina system, it follows the path as follows. 
-<div align="center">
 
- **Light - Ganglion Cell - Bipolar Cell/Horizontal Cell - Photoreceptor(Cone/Rod)**
-
-</div>
+**Light - Ganglion Cell - Bipolar Cell/Horizontal Cell - Photoreceptor(Cone/Rod)**
 
 The body of ganglion cell is located in Ganglionic layer and makes connection with bipolor cell and horizontal cell in Inner plexiform layer. The body of bipolar cell and horizontal cell is located in Inner nuclear layer and makes connection with the photoreceptors in Outer plexiform layer. The body of photoreceptor is located in Outer nuclear layer. 
 
@@ -46,7 +43,7 @@ The body of ganglion cell is located in Ganglionic layer and makes connection wi
 
 |<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/humanRetina1-1024x502.png" alt="Structure of Retina" width="400"/>|
 |:-:|
-|**Fig . Structure of Retina** (Wandell, 1995)|
+|**Fig 2. Structure of Retina** (Wandell, 1995)|
 
 </div>
 
@@ -66,7 +63,7 @@ RGC projects to a specific area in thalamus, which is called Lateral Geniculate 
 
 |<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/lgn-1024x717.png" alt="Structure of LGN" width="400"/>|
 |:-:|
-|**Fig . Structure of LGN** (Wandell, 1995)|
+|**Fig 3. Structure of LGN** (Wandell, 1995)|
 
 </div>
 
@@ -81,13 +78,51 @@ Signal starting from Retina reaches to Primary Visual Cortex(V1) via LGN. There 
 
 |<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/cortexLayers-1024x713.png" alt="Layers of V1" width="400"/>|
 |:-:|
-|**Fig . Layers of V1** (Wandell, 1995)|
+|**Fig 4. Layers of V1** (Wandell, 1995)|
 
 </div>
 
 ### :four: Receptive fields in V1
 
+According to the studies by Hubel and Wiesel, there are two types of cortical neuron based on its linearity. The one with linearity is called Simple Cell, the other one is called Complex Cell. These two cells also shows different results on contrast sensitivity. DeValois, Albrecht and Thorell measured the neural response of a contrast reversing stimulus with temporal period of 5 seconds. The result was as follows: Simple cell showed a half-rectified sinusodial wave, which it's frequency matches with the stimulus's frequency. In the other hand, Complex cell showed a full-rectified sinusodial wave, which it's frequency did not matches with the input stimulus's frequency. 
 
+<div align="center">
+
+|<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/simpleComplex-1024x471.png" alt="Contrast Sensitivity" width="400"/>|
+|:-:|
+|**Fig . Contrast Sensitivity of (a) Simple / (b) Complex Cell** (DeValois, Albrecht, Thorell, 1982)|
+
+</div>
+
+Hubel and Wiesel discovered two distinct properties of cortical neurons apart from retinal neurons or LGN neurons: **Orientation Selectivity** and **Direction Selectivity**
+
+### Orientation Selectivity
+
+Cortical neurons shows more response in certain orientation of stimulus. Orientation selective neurons are found throughout layer 2 and 3. Study shows in any small region in layer 2 and 3, the perferred orientation of collection of neurons is similar. Obermayer and Blasdel (1993) visualized regions with common orientation preference which is shown as gray lines in Fig.(). The lines are called iso-oriention lines or orientation colummn. These lines are nearly perpendicular to ocular dominance column. Iso-orientation lines toward a single point located in the middle of ocular dominance columns, which is called 'Singularity'. 
+
+<div align="center">
+
+|<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/isoOrientation1.png" alt="Orientation Columns and Ocular Dominance Columns" width="400"/>|
+|:-:|
+|**Fig . Orientation Columns and Ocular Dominance Columns** Obermayer and Blasdel (1993)|
+
+</div>
+
+Orientation Selectivity of a Simple Cell can be simulated by using its linearity. If circular symmetric receptive fields in LGN neurons constructs a certain form, by superposition which is also a key property of linearity, it can create an orientation sensitive receptive fields in V1. Therefore, simple summation model can explain how simple cells in V1 can obtain orientation sensitivity from non-oriented LGN receptive fields. However, this model cannot be applied to Complex Cells because complex cells are not linear. Complex cells need more complicated models.
+
+### Direction Selectivity
+
+The second property of receptive fields in V1 is 'Direction Selectivity'. Certain cortical neurons shows strong response toward a certain direction of stimulus's motion and shows weak response toward the opposite direction of the same stimulus. 
+
+<div align="center">
+
+|<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/dir.selective.png" alt="Direction Selectivity" width="400"/>|
+|:-:|
+|**Fig . Direction selectivity of a cortical neuron’s response** (Hubel and Wiesel, 1968)|
+
+</div>
+
+The direction sensitive neurons are found in layer 4A, 4B, 4C&#945; and 6. The interesting part is that these layers recieves information from Magnocellular layers in LGN which handles information related to motion. Therefore, these neurons maybe a part of a visual stream that is carries information of motion. 
 
 
 :page_facing_up: **Reference** 
@@ -99,34 +134,34 @@ Signal starting from Retina reaches to Primary Visual Cortex(V1) via LGN. There 
 
 |<img src="images/image_1.jpg" alt="Result Image 1" width="600"/>|
 |:-:|
-|**Fig . Original Sample Image** (Andrei Tarkovsky)|
+|**Fig 2. Original Sample Image** (Andrei Tarkovsky)|
 
 </div>
 <div align="center">
 
 |<img src="images/image_2.jpg" alt="Result Image 2" width="600"/>|
 |:-:|
-|**Fig . Vertical Receptive Field Orientation**|
+|**Fig 3. Vertical Receptive Field Orientation**|
 
 </div>
 <div align="center">
 
 |<img src="images/image_3.jpg" alt="Result Image 3" width="600"/>|
 |:-:|
-|**Fig . Horizontal Receptive Field Orientation**|
+|**Fig 4. Horizontal Receptive Field Orientation**|
 
 </div>
 <div align="center">
 
 |<img src="images/image_4.jpg" alt="Result Image 4" width="600"/>|
 |:-:|
-|**Fig . 55 degree Receptive Field Orientation**|
+|**Fig 5. 55 degree Receptive Field Orientation**|
 
 </div>
 <div align="center">
 
 |<img src="images/image_5.jpg" alt="Result Image 5" width="400"/>|
 |:-:|
-|**Fig . V1 Simulation**|
+|**Fig 6. V1 Simulation**|
 
 </div>
