@@ -104,7 +104,7 @@ Cortical neurons shows more response in certain orientation of stimulus. Orienta
 
 |<img src="https://foundationsofvision.stanford.edu/wp-content/uploads/2012/02/isoOrientation1.png" alt="Orientation Columns and Ocular Dominance Columns" width="400"/>|
 |:-:|
-|**Fig 7. Orientation Columns and Ocular Dominance Columns** Obermayer and Blasdel (1993)|
+|**Fig 7. Orientation Columns and Ocular Dominance Columns** (Obermayer and Blasdel, 1993)|
 
 </div>
 
